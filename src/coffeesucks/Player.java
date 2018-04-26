@@ -5,13 +5,14 @@
  */
 package coffeesucks;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  *
  * @author Mike
  */
-public class Player {
+public class Player implements Serializable{
     
     ArrayList<Card> myHand = new ArrayList<>();
     ArrayList<Meeple> myMeeps = new ArrayList<>();
